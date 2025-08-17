@@ -1,9 +1,16 @@
 import { createBrowserRouter } from "react-router";
 import App from "./App";
+import Layout from "./layout/Layout";
 
 export const appRoutes = createBrowserRouter([
   {
     path: "/",
-    Component: App,
+    Component: Layout,
+    children: [
+      {
+        index: true,
+        Component: App,
+      },
+    ],
   },
 ]);
