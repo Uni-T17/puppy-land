@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-Puppy Land hello hi
+Puppy Land hello hi noway
 hi hi again sorry omg
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
